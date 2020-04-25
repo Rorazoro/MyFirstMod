@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        " # ",
+        " / "
+    ],
+    "key": {
+        "#": {
+            "item": "myfirstmod:easteregg_item"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "myfirstmod:eastersword_item",
+        "count": 1
+    }
+}

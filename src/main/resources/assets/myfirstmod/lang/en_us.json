@@ -1,0 +1,21 @@
+{
+	"itemGroup.myfirstmod": "My First Mod",
+	
+	"item.myfirstmod.easteregg_item": "Easter Egg",
+	"item.myfirstmod.eastersword_item": "Easter Sword",
+	"item.myfirstmod.emerald_pickaxe_item": "Emerald Pickaxe",
+	"item.myfirstmod.emerald_axe_item": "Emerald Axe",
+	"item.myfirstmod.emerald_helmet_item": "Emerald Helmet",
+	"item.myfirstmod.emerald_chestplate_item": "Emerald Chestplate",
+	"item.myfirstmod.emerald_leggings_item": "Emerald Leggings",
+	"item.myfirstmod.emerald_boots_item": "Emerald Boots",
+
+	"block.myfirstmod.egg_ore": "Egg Ore",
+	"block.myfirstmod.spottedstone_block": "Spotted Stone",
+	"block.myfirstmod.spottedstone_slab_block": "Spotted Stone Slab",
+	"block.myfirstmod.spottedstone_stairs_block": "Spotted Stone Stairs",
+	"block.myfirstmod.spottedstone_fence_block": "Spotted Stone Fence",
+	"block.myfirstmod.spottedstone_wall_block": "Spotted Stone Wall",
+	"block.myfirstmod.spottedstone_pressure_plate_block": "Spotted Stone Pressure Plate",
+	"block.myfirstmod.spottedstone_button_block": "Spotted Stone Button"
+}

@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "powered=false": { "model": "myfirstmod:block/spottedstone_pressure_plate_block" },
+        "powered=true": { "model": "myfirstmod:block/spottedstone_pressure_plate_block_down" }
+    }
+}

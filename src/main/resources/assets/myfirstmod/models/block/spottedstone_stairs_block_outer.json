@@ -1,0 +1,8 @@
+{
+    "parent": "block/outer_stairs",
+    "textures": {
+        "bottom": "myfirstmod:block/spottedstone_block",
+        "top": "myfirstmod:block/spottedstone_block",
+        "side": "myfirstmod:block/spottedstone_block"
+    }
+}

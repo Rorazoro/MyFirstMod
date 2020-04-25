@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "myfirstmod:block/spottedstone_slab_block" },
+        "type=top": { "model": "myfirstmod:block/spottedstone_slab_top_block" },
+        "type=double": { "model": "myfirstmod:block/spottedstone_block" }
+    }
+}

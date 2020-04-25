@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "myfirstmod:item/emerald_axe_item"
+    }
+}
