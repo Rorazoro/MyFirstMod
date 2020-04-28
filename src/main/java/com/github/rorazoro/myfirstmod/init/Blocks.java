@@ -1,8 +1,10 @@
 package com.github.rorazoro.myfirstmod.init;
 
 import com.github.rorazoro.myfirstmod.Main;
+import com.github.rorazoro.myfirstmod.blocks.ModJavaCupBlock;
 import com.github.rorazoro.myfirstmod.blocks.ModPressurePlateBlock;
 import com.github.rorazoro.myfirstmod.blocks.ModStoneButtonBlock;
+import com.github.rorazoro.myfirstmod.blocks.ModTestBlock;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.FenceBlock;
@@ -36,5 +38,10 @@ public class Blocks {
                         "spottedstone_pressure_plate_block", () -> new ModPressurePlateBlock(Sensitivity.EVERYTHING,
                                         Block.Properties.create(Material.ROCK)));
         public static final RegistryObject<Block> SPOTTEDSTONE_BUTTON_BLOCK = BLOCKS.register(
-                        "spottedstone_button_block", () -> new ModStoneButtonBlock(Block.Properties.create(Material.ROCK)));
+                        "spottedstone_button_block",
+                        () -> new ModStoneButtonBlock(Block.Properties.create(Material.ROCK)));
+        public static final RegistryObject<ModTestBlock> TEST_BLOCK = BLOCKS.register("test_block",
+                        () -> new ModTestBlock(Block.Properties.create(Material.ROCK)));
+        public static final RegistryObject<ModJavaCupBlock> JAVACUP_BLOCK = BLOCKS.register("javacup_block",
+                        () -> new ModJavaCupBlock(Block.Properties.create(Material.ROCK)));
 }

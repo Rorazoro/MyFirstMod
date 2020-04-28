@@ -18,5 +18,7 @@
 	"block.myfirstmod.spottedstone_fence_block": "Spotted Stone Fence",
 	"block.myfirstmod.spottedstone_wall_block": "Spotted Stone Wall",
 	"block.myfirstmod.spottedstone_pressure_plate_block": "Spotted Stone Pressure Plate",
-	"block.myfirstmod.spottedstone_button_block": "Spotted Stone Button"
+	"block.myfirstmod.spottedstone_button_block": "Spotted Stone Button",
+	"block.myfirstmod.test_block": "Test Block",
+	"block.myfirstmod.javacup_block": "Cup of Java Block"
 }
