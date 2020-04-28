@@ -1,8 +1,9 @@
-package com.github.rorazoro.myfirstmod.init;
+package com.github.rorazoro.myfirstmod.items;
 
 import java.util.function.Supplier;
 
 import com.github.rorazoro.myfirstmod.Main;
+import com.github.rorazoro.myfirstmod.init.ItemInit;
 
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -10,7 +11,7 @@ import net.minecraft.item.ItemStack;
 public class ItemGroups {
     public static final ItemGroup MOD_ITEM_GROUP = new ModItemGroup(
         Main.MODID, 
-        () -> new ItemStack(Items.EASTEREGG_ITEM.get())
+        () -> new ItemStack(ItemInit.EASTEREGG_ITEM.get())
     );
 
     public static class ModItemGroup extends ItemGroup {

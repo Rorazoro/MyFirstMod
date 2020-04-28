@@ -2,6 +2,7 @@ package com.github.rorazoro.myfirstmod.init;
 
 import com.github.rorazoro.myfirstmod.Main;
 import com.github.rorazoro.myfirstmod.enums.ModArmorMaterial;
+import com.github.rorazoro.myfirstmod.items.ItemGroups;
 import com.github.rorazoro.myfirstmod.items.ModFuelItem;
 
 import net.minecraft.inventory.EquipmentSlotType;
@@ -16,7 +17,7 @@ import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
-public class Items {
+public class ItemInit {
         // The ITEMS deferred register in which you can register items.
         public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, Main.MODID);
 

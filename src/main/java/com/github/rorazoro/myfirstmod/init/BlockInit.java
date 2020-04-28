@@ -17,7 +17,7 @@ import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
-public class Blocks {
+public class BlockInit {
         public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS, Main.MODID);
 
         public static final RegistryObject<Block> EGG_ORE = BLOCKS.register("egg_ore",

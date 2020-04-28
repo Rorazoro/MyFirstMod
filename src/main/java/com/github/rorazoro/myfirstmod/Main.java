@@ -1,7 +1,8 @@
 package com.github.rorazoro.myfirstmod;
 
-import com.github.rorazoro.myfirstmod.init.Blocks;
-import com.github.rorazoro.myfirstmod.init.Items;
+import com.github.rorazoro.myfirstmod.init.BiomeInit;
+import com.github.rorazoro.myfirstmod.init.BlockInit;
+import com.github.rorazoro.myfirstmod.init.ItemInit;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -21,7 +22,8 @@ public class Main {
         final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         //Register deferred registries
-        Blocks.BLOCKS.register(modEventBus);
-        Items.ITEMS.register(modEventBus);
+        BlockInit.BLOCKS.register(modEventBus);
+        ItemInit.ITEMS.register(modEventBus);
+        BiomeInit.BIOMES.register(modEventBus);
     }
 }

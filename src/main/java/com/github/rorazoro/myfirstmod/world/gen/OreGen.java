@@ -1,6 +1,6 @@
 package com.github.rorazoro.myfirstmod.world.gen;
 
-import com.github.rorazoro.myfirstmod.init.Blocks;
+import com.github.rorazoro.myfirstmod.init.BlockInit;
 
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.gen.GenerationStage.Decoration;
@@ -16,7 +16,7 @@ public class OreGen {
     public static void generateOre() {
         for (final Biome biome : ForgeRegistries.BIOMES) {
             ConfiguredPlacement<CountRangeConfig> placementConfig = Placement.COUNT_RANGE.configure(new CountRangeConfig(20, 5, 5, 25));
-            OreFeatureConfig featureConfig = new OreFeatureConfig(FillerBlockType.NATURAL_STONE, Blocks.EGG_ORE.get().getDefaultState(), 10);
+            OreFeatureConfig featureConfig = new OreFeatureConfig(FillerBlockType.NATURAL_STONE, BlockInit.EGG_ORE.get().getDefaultState(), 10);
 
             biome.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.withConfiguration(featureConfig).withPlacement(placementConfig));
         }
