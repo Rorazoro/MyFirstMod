@@ -2,7 +2,9 @@ package com.github.rorazoro.myfirstmod;
 
 import com.github.rorazoro.myfirstmod.init.BiomeInit;
 import com.github.rorazoro.myfirstmod.init.BlockInit;
+import com.github.rorazoro.myfirstmod.init.DimensionInit;
 import com.github.rorazoro.myfirstmod.init.ItemInit;
+import com.github.rorazoro.myfirstmod.init.TileEntityTypeInit;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -24,6 +26,9 @@ public class Main {
         //Register deferred registries
         BlockInit.BLOCKS.register(modEventBus);
         ItemInit.ITEMS.register(modEventBus);
+        TileEntityTypeInit.TILE_ENTITY_TYPES.register(modEventBus);
+
         BiomeInit.BIOMES.register(modEventBus);
+        //DimensionInit.MOD_DIMENSIONS.register(modEventBus);
     }
 }
