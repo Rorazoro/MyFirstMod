@@ -1,9 +1,10 @@
-package com.github.rorazoro.myfirstmod;
+package com.github.rorazoro.myfirstmod.util;
 
 import com.github.rorazoro.myfirstmod.init.BiomeInit;
 import com.github.rorazoro.myfirstmod.init.BlockInit;
 import com.github.rorazoro.myfirstmod.items.ItemGroups;
 import com.github.rorazoro.myfirstmod.world.gen.OreGen;
+import com.github.rorazoro.myfirstmod.Main;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

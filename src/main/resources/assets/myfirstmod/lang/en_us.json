@@ -20,5 +20,8 @@
 	"block.myfirstmod.spottedstone_pressure_plate_block": "Spotted Stone Pressure Plate",
 	"block.myfirstmod.spottedstone_button_block": "Spotted Stone Button",
 	"block.myfirstmod.test_block": "Test Block",
-	"block.myfirstmod.javacup_block": "Cup of Java Block"
+	"block.myfirstmod.javacup_block": "Cup of Java Block",
+	"block.myfirstmod.spottedstone_chest": "Spotted Stone Chest",
+
+	"container.spottedstone_chest": "Spotted Stone Chest"
 }

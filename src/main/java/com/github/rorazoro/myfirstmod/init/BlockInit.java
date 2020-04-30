@@ -5,6 +5,7 @@ import com.github.rorazoro.myfirstmod.blocks.ModJavaCupBlock;
 import com.github.rorazoro.myfirstmod.blocks.ModPressurePlateBlock;
 import com.github.rorazoro.myfirstmod.blocks.ModStoneButtonBlock;
 import com.github.rorazoro.myfirstmod.blocks.ModTestBlock;
+import com.github.rorazoro.myfirstmod.blocks.SpottedStoneChestBlock;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.FenceBlock;
@@ -44,4 +45,6 @@ public class BlockInit {
                         () -> new ModTestBlock(Block.Properties.create(Material.ROCK)));
         public static final RegistryObject<ModJavaCupBlock> JAVACUP_BLOCK = BLOCKS.register("javacup_block",
                         () -> new ModJavaCupBlock(Block.Properties.create(Material.ROCK)));
+        public static final RegistryObject<Block> SPOTTEDSTONE_CHEST = BLOCKS.register("spottedstone_chest",
+                        () -> new SpottedStoneChestBlock(Block.Properties.create(Material.ROCK)));
 }

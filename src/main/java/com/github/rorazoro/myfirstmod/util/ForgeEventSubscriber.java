@@ -1,6 +1,7 @@
-package com.github.rorazoro.myfirstmod;
+package com.github.rorazoro.myfirstmod.util;
 
 import com.github.rorazoro.myfirstmod.init.DimensionInit;
+import com.github.rorazoro.myfirstmod.Main;
 
 import net.minecraft.world.dimension.DimensionType;
 import net.minecraftforge.common.DimensionManager;
