@@ -4,6 +4,7 @@ import com.github.rorazoro.myfirstmod.init.BiomeInit;
 import com.github.rorazoro.myfirstmod.init.BlockInit;
 import com.github.rorazoro.myfirstmod.init.ContainerInit;
 import com.github.rorazoro.myfirstmod.init.DimensionInit;
+import com.github.rorazoro.myfirstmod.init.EntityTypeInit;
 import com.github.rorazoro.myfirstmod.init.ItemInit;
 import com.github.rorazoro.myfirstmod.init.TileEntityTypeInit;
 
@@ -31,6 +32,7 @@ public class Main {
         ItemInit.ITEMS.register(modEventBus);
         TileEntityTypeInit.TILE_ENTITY_TYPES.register(modEventBus);
         ContainerInit.CONTAINER_TYPES.register(modEventBus);
+        EntityTypeInit.ENTITY_TYPES.register(modEventBus);
 
         BiomeInit.BIOMES.register(modEventBus);
         DimensionInit.MOD_DIMENSIONS.register(modEventBus);

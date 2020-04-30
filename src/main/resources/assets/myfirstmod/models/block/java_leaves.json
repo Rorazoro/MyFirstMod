@@ -1,0 +1,6 @@
+{
+    "parent": "block/leaves",
+    "textures": {
+        "all": "myfirstmod:block/java_leaves"
+    }
+}

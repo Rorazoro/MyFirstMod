@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y":  { "model": "myfirstmod:block/java_log" },
+        "axis=z":   { "model": "myfirstmod:block/java_log", "x": 90 },
+        "axis=x":   { "model": "myfirstmod:block/java_log", "x": 90, "y": 90 }
+    }
+}
